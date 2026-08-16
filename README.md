@@ -57,7 +57,7 @@ sem rede.
 ## Testes
 
 ```bash
-uv run pytest        # 27 testes, sem tocar a rede (httpx.MockTransport)
+uv run pytest        # 35 testes, sem tocar a rede (httpx.MockTransport)
 ```
 
 Cobrem o reuso do cliente, o fechamento do pool, a validação de configuração, a
